@@ -1,0 +1,88 @@
+.first-screen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: url("../img/dashboard_header.jpg") no-repeat left;
+  background-size: cover;
+  width: calc(100% - 20px);
+  margin-left: -20px;
+
+  .oh-plugin-title {
+    color: $white;
+
+    h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 59px;
+      color: $white;
+    }
+
+    h5 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: $white;
+    }
+  }
+
+  .header-image {
+    position: relative;
+
+    .main-boot {
+      img {
+        max-height: 200px;
+        width: auto;
+        max-width: none;
+      }
+    }
+
+    .boot-eyes {
+      position: absolute;
+      top: 65px;
+      left: 60px;
+      display: inline-flex;
+
+      &:before, &:after {
+        content: '';
+        display: block;
+        width: 36px;
+        height: 15px;
+        background: $eyes;
+        border-radius: 4px;
+      }
+
+      &:after {
+        margin-left: 13px;
+      }
+    }
+
+  }
+}
+
+.simple-first-screen {
+  padding: 12px 20px;
+  background: $onix-blue;
+  width: calc(100% - 20px);
+  margin-left: -20px;
+
+  h1 {
+    color: $white;
+    font-size: 19.948px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 0 4px;
+  }
+
+  h5 {
+    color: $white;
+    font-size: 9.974px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+}
